@@ -1,8 +1,8 @@
 
-drone detection - v2 2024-09-25 7:06am
+drone - v1 2025-01-14 2:41pm
 ==============================
 
-This dataset was exported via roboflow.com on September 25, 2024 at 7:07 AM GMT
+This dataset was exported via roboflow.com on January 18, 2026 at 1:34 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,15 +17,15 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 2190 images.
-Drone are annotated in YOLOv8 format.
+The dataset includes 264 images.
+Drone are annotated in YOLO26 format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 640x640 (Stretch)
 
 The following augmentation was applied to create 3 versions of each source image:
-* Equal probability of one of the following 90-degree rotations: none, clockwise, counter-clockwise, upside-down
-* Random Gaussian blur of between 0 and 2.5 pixels
+* 50% probability of horizontal flip
+* Random exposure adjustment of between -10 and +10 percent
 
 

@@ -1,5 +1,5 @@
-# drone detection > 2024-09-25 7:06am
-https://universe.roboflow.com/elevator-6m2yb/drone-detection-adly5
+# drone > 2025-01-14 2:41pm
+https://universe.roboflow.com/zuhailkeren/drone-77791
 
 Provided by a Roboflow user
 License: CC BY 4.0

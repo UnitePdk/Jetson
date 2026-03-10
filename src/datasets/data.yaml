@@ -6,8 +6,8 @@ nc: 1
 names: ['drone']
 
 roboflow:
-  workspace: elevator-6m2yb
-  project: drone-detection-adly5
-  version: 2
+  workspace: zuhailkeren
+  project: drone-77791
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/elevator-6m2yb/drone-detection-adly5/dataset/2
+  url: https://universe.roboflow.com/zuhailkeren/drone-77791/dataset/1
