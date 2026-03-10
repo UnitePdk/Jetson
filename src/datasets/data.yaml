@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['drone']
+
+roboflow:
+  workspace: elevator-6m2yb
+  project: drone-detection-adly5
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/elevator-6m2yb/drone-detection-adly5/dataset/2
