@@ -4,15 +4,16 @@ import cv2
 
 if __name__ == '__main__':
     # 새로운 모델 학습시키기
-    model = YOLO("yolo26n.pt") #yolo v11을 사용해서 데이터 학습
-    results = model.train(data="datasets/data.yaml", epochs=30, imgsz=640, batch=8) # 데이터셋 정보가 담겨있는 data.yaml 위치 지정
+    """
+    model = YOLO("yolov8n.pt") #yolo 을 사용해서 데이터 학습
+    results = model.train(data="datasets/data.yaml", epochs=50, imgsz=640, batch=8) # 데이터셋 정보가 담겨있는 data.yaml 위치 지정
     metrics = model.val()
     print("학습 수준:")
     print(metrics.box.map50)  # 0~1까지 학습 완성도를 표시
-
+    """
 
     # 이미 학습시킨 모델 불러와서 사용하기
-    # model = YOLO("runs/detect/train/weights/best.pt") # 학습된 모델의 경로를 잘 입력
+    model = YOLO("runs/detect/train5/weights/best.pt")
 
     # 이미지 추론
     result = model("drone1.png")
